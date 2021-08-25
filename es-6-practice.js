@@ -22,3 +22,11 @@ const product = {
 }
 const productDetail = `This phone's name is ${product.name} and price is ${product.price} as well as color is ${product.color}.`;
 console.log(productDetail);
+
+//3.a: By using arrow function, receive one parameter and return a number after divide by 5:
+const divideByFive = a => a / 5;
+console.log(divideByFive(50));
+
+//3.b: By using arrow function, receive two parameter and add two with both parameter and return these multiplication:
+const multiply = (a, b) => (a + 2) * (b + 2);
+console.log(multiply(2, 3));
