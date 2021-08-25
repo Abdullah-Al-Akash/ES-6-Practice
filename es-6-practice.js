@@ -30,3 +30,7 @@ console.log(divideByFive(50));
 //3.b: By using arrow function, receive two parameter and add two with both parameter and return these multiplication:
 const multiply = (a, b) => (a + 2) * (b + 2);
 console.log(multiply(2, 3));
+
+//3.b: By using arrow function, receive three parameter and return all multiplication:
+const multiplication = (a, b, c) => a * b * c;
+console.log(multiplication(2, 3, 5));
